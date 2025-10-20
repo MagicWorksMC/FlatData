@@ -1,1 +1,1 @@
-execute as @a if score @s GV_Using matches 1.. run scoreboard players remove @s GV_Using 1
+execute as @a if score @s GV_Using matches 1.. unless entity @s[advancements={using:right_click=true}] run scoreboard players set @s GV_Using 0

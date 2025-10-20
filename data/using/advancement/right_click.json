@@ -4,6 +4,11 @@
       "trigger": "minecraft:using_item",
       "conditions": {
         "item": {
+          "predicates": {
+			      "minecraft:custom_data": {
+              "usable":true
+              }
+            },
           "components": {
             "minecraft:food": {
               "nutrition": 0,
