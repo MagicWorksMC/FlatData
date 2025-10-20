@@ -1,0 +1,1 @@
+execute as @a if score @s GV_Using matches 1.. run scoreboard players remove @s GV_Using 1

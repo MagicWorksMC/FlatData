@@ -1,0 +1,25 @@
+{
+	"type": "crafting_shaped",
+	"key": {
+		"X": "minecraft:gunpowder",
+		"B": "minecraft:nether_star"
+	},
+	"pattern": [
+		" X ",
+		"XBX",
+		" X "
+	],
+	"result": {
+		"id": "minecraft:nether_star",
+		"components": {
+			"item_name": "{\"text\":\"Burst Charm\",\"color\":\"light_purple\"}",
+			"consumable": {
+				"consume_seconds": 2147483647,
+				"animation": "brush",
+				"has_consume_particles": false
+			},
+			"max_stack_size": 1,
+			"custom_data": {"burst_charm":true}
+		}
+	}
+}

@@ -1,0 +1,29 @@
+{
+	"type": "crafting_shaped",
+	"key": {
+		"X": "minecraft:fire_charge",
+		"B": "minecraft:blaze_powder"
+	},
+	"pattern": [
+		" X ",
+		"XBX",
+		" X "
+	],
+	"result": {
+		"id": "minecraft:blaze_powder",
+		"components": {
+			"item_name": "{\"text\":\"Fireball Dust\",\"color\":\"gold\"}",
+			"consumable": {
+				"consume_seconds": 0,
+				"animation": "spyglass",
+				"has_consume_particles": false,
+				"sound": "minecraft:entity.blaze.shoot"
+			},
+			"use_cooldown": {
+				"seconds": 3,
+				"cooldown_group": "tutorial:fireball_dust"
+			},
+			"custom_data": {"fireball_dust":true}
+		}
+	}
+}
