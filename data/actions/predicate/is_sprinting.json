@@ -2,8 +2,8 @@
   "condition": "minecraft:entity_properties",
   "entity": "this",
   "predicate": {
-    "type": "minecraft:player",
-    "flags": {
+    "minecraft:entity_type": "minecraft:player",
+    "minecraft:flags": {
       "is_sprinting": true
     }
   }
