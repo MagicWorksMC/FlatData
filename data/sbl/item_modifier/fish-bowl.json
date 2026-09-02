@@ -24,6 +24,9 @@
       "hidden_components": [
         "minecraft:unbreakable"
       ]
+    },
+    "minecraft:custom_data": {
+      "sbl": true
     }
   }
 }

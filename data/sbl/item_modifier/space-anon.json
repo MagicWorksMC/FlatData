@@ -16,14 +16,22 @@
         "text": "Request timed out.",
         "color": "gray",
         "italic": false
+      },
+      {
+        "text": ""
       }
     ],
     "minecraft:unbreakable": {},
     "minecraft:tooltip_display": {
       "hide_tooltip": false,
       "hidden_components": [
-        "minecraft:unbreakable"
+        "minecraft:unbreakable",
+        "minecraft:dyed_color",
+        "minecraft:attribute_modifiers"
       ]
+    },
+    "minecraft:custom_data": {
+      "sbl": true
     },
     "minecraft:dyed_color": 8948358
   }

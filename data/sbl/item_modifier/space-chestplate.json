@@ -16,6 +16,9 @@
         "text": "zippers there are in space",
         "color": "yellow",
         "italic": false
+      },
+      {
+        "text": ""
       }
     ],
     "minecraft:unbreakable": {},
@@ -23,8 +26,12 @@
       "hide_tooltip": false,
       "hidden_components": [
         "minecraft:unbreakable",
-        "minecraft:dyed_color"
+        "minecraft:dyed_color",
+        "minecraft:attribute_modifiers"
       ]
+    },
+    "minecraft:custom_data": {
+      "sbl": true
     }
   }
 }

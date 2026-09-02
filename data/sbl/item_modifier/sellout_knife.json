@@ -10,19 +10,24 @@
     "minecraft:lore": [
       {
         "text": "\"You've been... SOLD!\"",
-        "color": "yellow"
+        "color": "gray"
       },
       {
         "text": "♫ I didn't pay for it ♫",
-        "color": "yellow"
+        "color": "gray"
+      },
+      {
+        "text": " "
       },
       {
         "text": "SPONSORED BY",
-        "color": "yellow"
+        "color": "yellow",
+        "font": "minecraft:uniform"
       },
       {
         "text": "The Free Market :)",
-        "color": "yellow"
+        "color": "yellow",
+        "font": "minecraft:uniform"
       }
     ],
     "minecraft:unbreakable": {},
@@ -31,6 +36,9 @@
       "hidden_components": [
         "minecraft:unbreakable"
       ]
+    },
+    "minecraft:custom_data": {
+      "sbl": true
     }
   }
 }
