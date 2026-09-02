@@ -1,0 +1,30 @@
+{
+  "function": "minecraft:set_components",
+  "components": {
+    "minecraft:custom_name": {
+      "text": "Space Boots!",
+      "color": "red",
+      "italic": false
+    },
+    "minecraft:lore": [
+      {
+        "text": "They're heavy, but the",
+        "color": "yellow",
+        "italic": false
+      },
+      {
+        "text": "magnets come in handy",
+        "color": "yellow",
+        "italic": false
+      }
+    ],
+    "minecraft:unbreakable": {},
+    "minecraft:tooltip_display": {
+      "hide_tooltip": false,
+      "hidden_components": [
+        "minecraft:unbreakable",
+        "minecraft:dyed_color"
+      ]
+    }
+  }
+}

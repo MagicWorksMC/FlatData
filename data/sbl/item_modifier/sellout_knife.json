@@ -1,0 +1,36 @@
+{
+  "function": "minecraft:set_components",
+  "components": {
+    "minecraft:custom_name": {
+      "text": "Cash Stab $$$",
+      "color": "red",
+      "bold": true,
+      "italic": false
+    },
+    "minecraft:lore": [
+      {
+        "text": "\"You've been... SOLD!\"",
+        "color": "yellow"
+      },
+      {
+        "text": "♫ I didn't pay for it ♫",
+        "color": "yellow"
+      },
+      {
+        "text": "SPONSORED BY",
+        "color": "yellow"
+      },
+      {
+        "text": "The Free Market :)",
+        "color": "yellow"
+      }
+    ],
+    "minecraft:unbreakable": {},
+    "minecraft:tooltip_display": {
+      "hide_tooltip": false,
+      "hidden_components": [
+        "minecraft:unbreakable"
+      ]
+    }
+  }
+}

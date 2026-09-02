@@ -1,0 +1,30 @@
+{
+  "function": "minecraft:set_components",
+  "components": {
+    "minecraft:custom_name": {
+      "text": "Space Pants!",
+      "color": "red",
+      "italic": false
+    },
+    "minecraft:lore": [
+      {
+        "text": "Keeps you warm and ready to go",
+        "color": "yellow",
+        "italic": false
+      },
+      {
+        "text": "in such a cold, cold universe",
+        "color": "yellow",
+        "italic": false
+      }
+    ],
+    "minecraft:unbreakable": {},
+    "minecraft:tooltip_display": {
+      "hide_tooltip": false,
+      "hidden_components": [
+        "minecraft:unbreakable",
+        "minecraft:dyed_color"
+      ]
+    }
+  }
+}

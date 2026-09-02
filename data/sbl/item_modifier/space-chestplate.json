@@ -1,0 +1,30 @@
+{
+  "function": "minecraft:set_components",
+  "components": {
+    "minecraft:custom_name": {
+      "text": "Spaceperson's Zip-up!",
+      "color": "red",
+      "italic": false
+    },
+    "minecraft:lore": [
+      {
+        "text": "You'd be surprised how many",
+        "color": "yellow",
+        "italic": false
+      },
+      {
+        "text": "zippers there are in space",
+        "color": "yellow",
+        "italic": false
+      }
+    ],
+    "minecraft:unbreakable": {},
+    "minecraft:tooltip_display": {
+      "hide_tooltip": false,
+      "hidden_components": [
+        "minecraft:unbreakable",
+        "minecraft:dyed_color"
+      ]
+    }
+  }
+}

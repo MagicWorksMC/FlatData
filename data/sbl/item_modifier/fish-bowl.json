@@ -1,0 +1,29 @@
+{
+  "function": "minecraft:set_components",
+  "components": {
+    "minecraft:custom_name": {
+      "text": "Fish-Bowl",
+      "color": "red",
+      "italic": false
+    },
+    "minecraft:lore": [
+      {
+        "text": "As crazy as it may seem",
+        "color": "yellow",
+        "italic": false
+      },
+      {
+        "text": "this works pretty well",
+        "color": "yellow",
+        "italic": false
+      }
+    ],
+    "minecraft:unbreakable": {},
+    "minecraft:tooltip_display": {
+      "hide_tooltip": false,
+      "hidden_components": [
+        "minecraft:unbreakable"
+      ]
+    }
+  }
+}

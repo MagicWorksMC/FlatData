@@ -1,0 +1,30 @@
+{
+  "function": "minecraft:set_components",
+  "components": {
+    "minecraft:custom_name": {
+      "text": "?????",
+      "color": "gray",
+      "italic": false,
+      "obfuscated": true
+    },
+    "minecraft:lore": [
+      {
+        "text": "Error 408:",
+        "color": "gray",
+        "italic": false
+      },
+      {
+        "text": "Request timed out.",
+        "color": "gray",
+        "italic": false
+      }
+    ],
+    "minecraft:unbreakable": {},
+    "minecraft:tooltip_display": {
+      "hide_tooltip": false,
+      "hidden_components": [
+        "minecraft:unbreakable"
+      ]
+    }
+  }
+}
