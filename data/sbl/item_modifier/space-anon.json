@@ -3,7 +3,6 @@
   "components": {
     "minecraft:custom_name": {
       "text": "?????",
-      "color": "gray",
       "italic": false,
       "obfuscated": true
     },
@@ -25,6 +24,7 @@
       "hidden_components": [
         "minecraft:unbreakable"
       ]
-    }
+    },
+    "minecraft:dyed_color": 8948358
   }
 }
