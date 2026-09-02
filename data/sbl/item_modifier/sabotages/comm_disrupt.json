@@ -1,0 +1,55 @@
+{
+  "function": "minecraft:set_components",
+  "components": {
+    "minecraft:custom_name": {
+      "text": "COMM_DISRUPT.EXE",
+      "color": "red",
+      "italic": false,
+      "bold": true
+    },
+    "minecraft:lore": [
+      {
+        "text": "Hacking Module (CLICK TO USE)",
+        "color": "aqua",
+        "italic": false,
+        "underlined": true
+      },
+      {
+        "text": "-Suit communications are disabled",
+        "color": "gold",
+        "italic": false
+      },
+      {
+        "text": "-Requires 1 workers to troubleshoot",
+        "color": "gold",
+        "italic": false
+      },
+      {
+        "text": "-All suit colors are set to gray",
+        "color": "gold",
+        "italic": false
+      },
+      {
+        "text": ""
+      },
+      {
+        "text": "\"Who was that?\"",
+        "color": "gray",
+        "italic": true
+      },
+      {
+        "text": "\"Everyone looks the same!\"",
+        "color": "gray",
+        "italic": true
+      }
+    ],
+    "minecraft:tooltip_display": {
+      "hide_tooltip": false,
+      "hidden_components": [
+        "minecraft:attribute_modifiers",
+        "minecraft:trim"
+      ]
+    },
+    "minecraft:item_model": "minecraft:silence_armor_trim_smithing_template"
+  }
+}

@@ -1,0 +1,60 @@
+{
+  "function": "minecraft:set_components",
+  "components": {
+    "minecraft:custom_name": {
+      "text": "CRASH_COURSE.EXE",
+      "color": "red",
+      "italic": false,
+      "bold": true
+    },
+    "minecraft:lore": [
+      {
+        "text": "Hacking Module (CLICK TO USE)",
+        "color": "aqua",
+        "italic": false,
+        "underlined": true
+      },
+      {
+        "text": "-Disables asteroid defense systems",
+        "color": "gold",
+        "italic": false
+      },
+      {
+        "text": "-Navigates to an asteroid field",
+        "color": "gold",
+        "italic": false
+      },
+      {
+        "text": "-Requires 1 worker to correct",
+        "color": "gold",
+        "italic": false
+      },
+      {
+        "text": "-Can destroy the ship",
+        "color": "gold",
+        "italic": false
+      },
+      {
+        "text": ""
+      },
+      {
+        "text": "\"Is that asteroid getting bigger?\"",
+        "color": "gray",
+        "italic": true
+      },
+      {
+        "text": "\"Arm the cannons NOW!\"",
+        "color": "gray",
+        "italic": true
+      }
+    ],
+    "minecraft:tooltip_display": {
+      "hide_tooltip": false,
+      "hidden_components": [
+        "minecraft:attribute_modifiers",
+        "minecraft:trim"
+      ]
+    },
+    "minecraft:item_model": "minecraft:ward_armor_trim_smithing_template"
+  }
+}

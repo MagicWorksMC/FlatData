@@ -1,0 +1,55 @@
+{
+  "function": "minecraft:set_components",
+  "components": {
+    "minecraft:custom_name": {
+      "text": "LIGHTS_OUT.EXE",
+      "color": "red",
+      "italic": false,
+      "bold": true
+    },
+    "minecraft:lore": [
+      {
+        "text": "Hacking Module (CLICK TO USE)",
+        "color": "aqua",
+        "italic": false,
+        "underlined": true
+      },
+      {
+        "text": "-Shuts off the lights",
+        "color": "gold",
+        "italic": false
+      },
+      {
+        "text": "-Requires 1 workers to restore",
+        "color": "gold",
+        "italic": false
+      },
+      {
+        "text": "-Makes it hard for workers to see",
+        "color": "gold",
+        "italic": false
+      },
+      {
+        "text": ""
+      },
+      {
+        "text": "\"I can't see a thing...\"",
+        "color": "gray",
+        "italic": true
+      },
+      {
+        "text": "\"What was that noise?\"",
+        "color": "gray",
+        "italic": true
+      }
+    ],
+    "minecraft:tooltip_display": {
+      "hide_tooltip": false,
+      "hidden_components": [
+        "minecraft:attribute_modifiers",
+        "minecraft:trim"
+      ]
+    },
+    "minecraft:item_model": "minecraft:snout_armor_trim_smithing_template"
+  }
+}

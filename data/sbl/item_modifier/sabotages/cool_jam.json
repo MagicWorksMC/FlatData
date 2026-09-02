@@ -1,0 +1,55 @@
+{
+  "function": "minecraft:set_components",
+  "components": {
+    "minecraft:custom_name": {
+      "text": "COOL_JAM.EXE",
+      "color": "red",
+      "italic": false,
+      "bold": true
+    },
+    "minecraft:lore": [
+      {
+        "text": "Hacking Module (CLICK TO USE)",
+        "color": "aqua",
+        "italic": false,
+        "underlined": true
+      },
+      {
+        "text": "-Causes cooling system to jam",
+        "color": "gold",
+        "italic": false
+      },
+      {
+        "text": "-Requires 1 worker to repair",
+        "color": "gold",
+        "italic": false
+      },
+      {
+        "text": "-Can destroy facility",
+        "color": "gold",
+        "italic": false
+      },
+      {
+        "text": ""
+      },
+      {
+        "text": "\"Just me or is it hot in here?\"",
+        "color": "gray",
+        "italic": true
+      },
+      {
+        "text": "\"I think I'm gonna pass out...\"",
+        "color": "gray",
+        "italic": true
+      }
+    ],
+    "minecraft:tooltip_display": {
+      "hide_tooltip": false,
+      "hidden_components": [
+        "minecraft:attribute_modifiers",
+        "minecraft:trim"
+      ]
+    },
+    "minecraft:item_model": "minecraft:sentry_armor_trim_smithing_template"
+  }
+}

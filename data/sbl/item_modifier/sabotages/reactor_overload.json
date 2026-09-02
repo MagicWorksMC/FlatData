@@ -1,0 +1,55 @@
+{
+  "function": "minecraft:set_components",
+  "components": {
+    "minecraft:custom_name": {
+      "text": "REACTOR_OVERLOAD.EXE",
+      "color": "red",
+      "italic": false,
+      "bold": true
+    },
+    "minecraft:lore": [
+      {
+        "text": "Hacking Module (CLICK TO USE)",
+        "color": "aqua",
+        "italic": false,
+        "underlined": true
+      },
+      {
+        "text": "-Causes reactor to overload",
+        "color": "gold",
+        "italic": false
+      },
+      {
+        "text": "-Requires 2 workers to override",
+        "color": "gold",
+        "italic": false
+      },
+      {
+        "text": "-Can destroy the ship",
+        "color": "gold",
+        "italic": false
+      },
+      {
+        "text": ""
+      },
+      {
+        "text": "\"What's with all the alarms?\"",
+        "color": "gray",
+        "italic": true
+      },
+      {
+        "text": "\"Anyone gonna help me with this?\"",
+        "color": "gray",
+        "italic": true
+      }
+    ],
+    "minecraft:tooltip_display": {
+      "hide_tooltip": false,
+      "hidden_components": [
+        "minecraft:attribute_modifiers",
+        "minecraft:trim"
+      ]
+    },
+    "minecraft:item_model": "minecraft:spire_armor_trim_smithing_template"
+  }
+}
