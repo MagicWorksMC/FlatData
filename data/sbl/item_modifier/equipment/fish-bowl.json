@@ -16,6 +16,9 @@
         "text": "this works pretty well",
         "color": "yellow",
         "italic": false
+      },
+      {
+        "text": ""
       }
     ],
     "minecraft:unbreakable": {},
